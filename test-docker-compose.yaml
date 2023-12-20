@@ -1,0 +1,6 @@
+services:
+  testservice:
+    build:
+      context: .
+      dockerfile: ubuntu.Dockerfile
+    command: ["echo", "hello", "world"]
